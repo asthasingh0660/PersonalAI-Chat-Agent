@@ -4,17 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pydantic = "*"
+python-dotenv = "*"
+langchain-groq = "*"
+langchain = "*"
+langgraph = "*"
+langchain-openai = "*"
+langchain-community = "*"
 fastapi = "*"
 uvicorn = "*"
 streamlit = "*"
 requests = "*"
-langchain = "*"
-langchain-community = "*"
-langchain-openai = "*"
-langchain-groq = "*"
-langgraph = "*"
-pydantic = "*"
-python-dotenv = "*"
 
 [dev-packages]
 
